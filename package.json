@@ -1,0 +1,21 @@
+{
+  "name": "node-fundamentals",
+  "version": "1.0.0",
+  "description": "Study about node fundamentals",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linhpvt/node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/linhpvt/node/issues"
+  },
+  "homepage": "https://github.com/linhpvt/node#readme",
+  "type": "module"
+}

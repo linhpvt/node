@@ -1,3 +1,2 @@
-var greeting = require('./modules/greetings');
-greeting.english();
-greeting.spanish();
+// import * as greeting from './modules/es6/greeting';
+// greeting.greeting();
