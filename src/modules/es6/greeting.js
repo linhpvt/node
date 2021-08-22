@@ -1,3 +1,3 @@
-// export function greeting() {
-//   console.log('this is ES6');
-// }
+export function greeting() {
+  console.log('this is ES6');
+}
