@@ -1,9 +1,11 @@
-var Cat = require('./modules/inheritance/function.call').Cat;
-var Animal = require('./modules/inheritance/function.call').Animal;
-var dog = new Animal();
-dog.say();
+var Greetr = require('./modules/classes/inheritance');
+var greet1 = new Greetr();
+greet1.on('greet', function (data) {
+  console.log('EventData arrived, ', data);
+});
 
-var kitty = new Cat();
-kitty.print();
-kitty.name = 'Magic';
-kitty.say();
+var greet2 = new Greetr();
+
+// true: they both share the same prototype
+console.log(greet1.__proto__ === greet2.__proto__);
+greet1.greet({ a: 1 });
